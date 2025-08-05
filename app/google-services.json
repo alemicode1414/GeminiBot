@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "542506419399",
+    "project_id": "geminibot-4d56d",
+    "storage_bucket": "geminibot-4d56d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:542506419399:android:987eb15828d20c7622aae2",
+        "android_client_info": {
+          "package_name": "com.example.geminibot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhmRaRdS6KYwH9dbRMjxzm35kPNgnkW78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
