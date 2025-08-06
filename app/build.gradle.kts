@@ -75,4 +75,12 @@ dependencies {
     implementation( "androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.0")
     // ViewModel utilities for Compose
         implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.0")
+
+
+    implementation (libs.retrofit)
+    implementation (libs.converter.gson)
+
+    implementation("io.coil-kt:coil-compose:2.5.0")
+
+
 }
