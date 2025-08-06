@@ -1,17 +1,14 @@
-package com.example.geminibot
+package com.example.geminibot.ui.news
 
 import android.util.Log
-import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.geminibot.data.NewsRepository
 import com.example.geminibot.data.api.RetrofitInstance
 import com.example.geminibot.data.model.NewsItem
-import com.example.geminibot.data.model.NewsResponse
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow
 import kotlinx.coroutines.launch
-import kotlin.math.log
 
 class NewsViewModel : ViewModel() {
 
